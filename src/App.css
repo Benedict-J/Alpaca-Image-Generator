@@ -1,0 +1,8 @@
+.App {
+  padding-inline: 10vw;
+  padding-block: 10vh;
+}
+
+.title {
+  color: var(--primary-text);
+}

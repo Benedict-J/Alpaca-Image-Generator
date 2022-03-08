@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10vw;
+}
+
+.image_container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.background {
+  max-width: 500px;
+  max-height: 500px;
+  z-index: 0;
+}
+
+.alpaca_part {
+  max-width: 500px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+
+.customize {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.customize h2 {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--primary-text);
+  margin: 0;
+}
+
+.button_group {
+  margin-top: 10px;
+  display: flex;
+  column-gap: 5px;
+  row-gap: 5px;
+  flex-wrap: wrap;
+  width: 300px;
+}
