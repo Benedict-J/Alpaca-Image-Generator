@@ -1,19 +1,7 @@
-button {
+.pill_button {
   background-color: transparent;
   padding: 10px 25px;
   border: 2px solid #abc1e3;
   border-radius: 20px;
   color: #abc1e3;
-}
-
-button:hover {
-  border: 2px solid #23509c;
-  color: #23509c;
-  font-weight: 600;
-}
-
-button:focus {
-  border: 2px solid #23509c;
-  background-color: #23509c;
-  color: white;
 }

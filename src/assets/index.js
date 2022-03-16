@@ -1,13 +1,7 @@
 const images = {
-  accessories: {
-    Earings: require('./alpaca/accessories/earings.png'),
-    Flower: require('./alpaca/accessories/flower.png'),
-    Glasses: require('./alpaca/accessories/glasses.png'),
-    Headphone: require('./alpaca/accessories/headphone.png'),
-  },
   background: {
-    'Blue-50': require('./alpaca/backgrounds/blue50.png'),
-    'Blue-60': require('./alpaca/backgrounds/blue60.png'),
+    Blue50: require('./alpaca/backgrounds/blue50.png'),
+    Blue60: require('./alpaca/backgrounds/blue60.png'),
     Blue70: require('./alpaca/backgrounds/blue70.png'),
     DarkBlue30: require('./alpaca/backgrounds/darkblue30.png'),
     DarkBlue50: require('./alpaca/backgrounds/darkblue50.png'),
@@ -30,13 +24,14 @@ const images = {
     tiltBackward: require('./alpaca/ears/tilt-backward.png'),
     tiltForward: require('./alpaca/ears/tilt-forward.png'),
   },
-  eyes: {
-    angry: require('./alpaca/eyes/angry.png'),
-    default: require('./alpaca/eyes/default.png'),
-    naughty: require('./alpaca/eyes/naughty.png'),
-    panda: require('./alpaca/eyes/panda.png'),
-    smart: require('./alpaca/eyes/smart.png'),
-    star: require('./alpaca/eyes/star.png'),
+  neck: {
+    bendBackward: require('./alpaca/neck/bend-backward.png'),
+    bendForward: require('./alpaca/neck/bend-forward.png'),
+    default: require('./alpaca/neck/default.png'),
+    thick: require('./alpaca/neck/thick.png'),
+  },
+  nose: {
+    default: require('./alpaca/nose.png'),
   },
   hair: {
     bang: require('./alpaca/hair/bang.png'),
@@ -47,13 +42,13 @@ const images = {
     quiff: require('./alpaca/hair/quiff.png'),
     short: require('./alpaca/hair/short.png'),
   },
-  leg: {
-    bubbleTea: require('./alpaca/leg/bubble-tea.png'),
-    cookie: require('./alpaca/leg/cookie.png'),
-    default: require('./alpaca/leg/default.png'),
-    gameConsole: require('./alpaca/leg/game-console.png'),
-    tiltBackward: require('./alpaca/leg/tilt-backward.png'),
-    tiltForward: require('./alpaca/leg/tilt-forward.png'),
+  eyes: {
+    angry: require('./alpaca/eyes/angry.png'),
+    default: require('./alpaca/eyes/default.png'),
+    naughty: require('./alpaca/eyes/naughty.png'),
+    panda: require('./alpaca/eyes/panda.png'),
+    smart: require('./alpaca/eyes/smart.png'),
+    star: require('./alpaca/eyes/star.png'),
   },
   mouth: {
     astonished: require('./alpaca/mouth/astonished.png'),
@@ -62,13 +57,20 @@ const images = {
     laugh: require('./alpaca/mouth/laugh.png'),
     tongue: require('./alpaca/mouth/tongue.png'),
   },
-  neck: {
-    bendBackward: require('./alpaca/neck/bend-backward.png'),
-    bendForward: require('./alpaca/neck/bend-forward.png'),
-    default: require('./alpaca/neck/default.png'),
-    thick: require('./alpaca/neck/thick.png'),
+  leg: {
+    bubbleTea: require('./alpaca/leg/bubble-tea.png'),
+    cookie: require('./alpaca/leg/cookie.png'),
+    default: require('./alpaca/leg/default.png'),
+    gameConsole: require('./alpaca/leg/game-console.png'),
+    tiltBackward: require('./alpaca/leg/tilt-backward.png'),
+    tiltForward: require('./alpaca/leg/tilt-forward.png'),
   },
-  nose: require('./alpaca/nose.png'),
+  accessories: {
+    Earings: require('./alpaca/accessories/earings.png'),
+    Flower: require('./alpaca/accessories/flower.png'),
+    Glasses: require('./alpaca/accessories/glasses.png'),
+    Headphone: require('./alpaca/accessories/headphone.png'),
+  },
 };
 
 export default images;
